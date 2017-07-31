@@ -1,0 +1,12 @@
+server:
+  name: quarts-intro
+  port: 80
+
+quartz:
+    jobStore:
+      #The database name to be used to create the quartz scheduler specific collections.
+      dbName: sample-quarts-jobs
+      
+spring:
+    profiles:
+      active: dev

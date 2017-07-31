@@ -1,0 +1,9 @@
+server:
+  port: 8443
+
+
+spring:
+  data:
+    mongodb:
+      uri: produrl:27017, produrl:27017
+ 
